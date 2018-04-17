@@ -1,0 +1,2538 @@
+{
+    "name": "cirp-survey-of-american-freshmen",
+    "title": "cirp-survey-of-american-freshmen",
+    "resources": [
+        {
+            "path": "page_23.csv",
+            "pathType": "local",
+            "name": "page_23",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "ISO-8859-1",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_24.csv",
+            "pathType": "local",
+            "name": "page_24",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "ISO-8859-1",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "any",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_25.csv",
+            "pathType": "local",
+            "name": "page_25",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_26.csv",
+            "pathType": "local",
+            "name": "page_26",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "ISO-8859-1",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_27.csv",
+            "pathType": "local",
+            "name": "page_27",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_28.csv",
+            "pathType": "local",
+            "name": "page_28",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "any",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_29.csv",
+            "pathType": "local",
+            "name": "page_29",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_30.csv",
+            "pathType": "local",
+            "name": "page_30",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_31.csv",
+            "pathType": "local",
+            "name": "page_31",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_32.csv",
+            "pathType": "local",
+            "name": "page_32",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_33.csv",
+            "pathType": "local",
+            "name": "page_33",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_34.csv",
+            "pathType": "local",
+            "name": "page_34",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_35.csv",
+            "pathType": "local",
+            "name": "page_35",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": null,
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_36.csv",
+            "pathType": "local",
+            "name": "page_36",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_37.csv",
+            "pathType": "local",
+            "name": "page_37",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_38.csv",
+            "pathType": "local",
+            "name": "page_38",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_39.csv",
+            "pathType": "local",
+            "name": "page_39",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "ISO-8859-1",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_40.csv",
+            "pathType": "local",
+            "name": "page_40",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "ISO-8859-1",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_41.csv",
+            "pathType": "local",
+            "name": "page_41",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_42.csv",
+            "pathType": "local",
+            "name": "page_42",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_43.csv",
+            "pathType": "local",
+            "name": "page_43",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "any",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_44.csv",
+            "pathType": "local",
+            "name": "page_44",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_45.csv",
+            "pathType": "local",
+            "name": "page_45",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All Bacc Institutions",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4-yr Coll(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Universities(Baccalaureate Institutions)",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Nonsec 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Catholic 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Oth Relig 4-year Colleges",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private Universities",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "All HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Public HBCU",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Private HBCU",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Survey of Full-Time Freshmen by Institutional Type"
+        },
+        {
+            "path": "page_67.csv",
+            "pathType": "local",
+            "name": "page_67",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "ISO-8859-1",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ACE",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Institution",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "City",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "State",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Stratification Cell",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Included in National Norms",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Institutions Participating in the 2014 CIRP Freshman Survey"
+        },
+        {
+            "path": "page_68.csv",
+            "pathType": "local",
+            "name": "page_68",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "ISO-8859-1",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ACE",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Institution",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "City",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "State",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Stratification Cell",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Included in National Norms",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Institutions Participating in the 2014 CIRP Freshman Survey"
+        },
+        {
+            "path": "page_69.csv",
+            "pathType": "local",
+            "name": "page_69",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "ISO-8859-1",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ACE",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Institution",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "City",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "State",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Stratification Cell",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Included in National Norms",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Institutions Participating in the 2014 CIRP Freshman Survey"
+        },
+        {
+            "path": "page_70.csv",
+            "pathType": "local",
+            "name": "page_70",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ACE",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Institution",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "City",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "State",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Stratification Cell",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Included in National Norms",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Institutions Participating in the 2014 CIRP Freshman Survey"
+        },
+        {
+            "path": "page_71.csv",
+            "pathType": "local",
+            "name": "page_71",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ACE",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Institution",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "City",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "State",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Stratification Cell",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Included in National Norms",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Institutions Participating in the 2014 CIRP Freshman Survey"
+        },
+        {
+            "path": "page_72.csv",
+            "pathType": "local",
+            "name": "page_72",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "UTF-8",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ACE",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Institution",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "City",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "State",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Stratification Cell",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Included in National Norms",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Institutions Participating in the 2014 CIRP Freshman Survey"
+        },
+        {
+            "path": "page_73.csv",
+            "pathType": "local",
+            "name": "page_73",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "ISO-8859-1",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ACE",
+                        "type": "any",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Institution",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "City",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "State",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Stratification Cell",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Included in National Norms",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Institutions Participating in the 2014 CIRP Freshman Survey"
+        },
+        {
+            "path": "page_78.csv",
+            "pathType": "local",
+            "name": "page_78",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "ISO-8859-1",
+            "dialect": {
+                "delimiter": null,
+                "quoteChar": "\""
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Unweighted size of comparison groups",
+                        "type": "geopoint",
+                        "format": "default"
+                    },
+                    {
+                        "name": "1%",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "5%",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "10%",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "15%",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "20%",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "25%",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "30%",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "35%",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "40%",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "45%",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "50%",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "data-resource",
+            "description": "Estimated Standard Errors of Percentages for Comparison Groups of Various Sizes"
+        }
+    ],
+    "profile": "data-package"
+}
