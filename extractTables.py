@@ -67,11 +67,11 @@ def splitDocIntoPDFObjects(pdfDocumentFilePath):
     pdfDocument = PdfFileReader(open(pdfDocumentFilePath, 'rb'))
     pdfNumberOfPages = pdfDocument.numPages
     listOfPdfObjects = []
-    for pageNum in range(pdfNumberOfPages):
+    for pageNum in range(26, pdfNumberOfPages):
         page = pdfDocument.getPage(pageNum)
         pageOutput = PdfFileWriter()
         pageOutput.addPage(page)
-        pdfPagePath = "output/page_" + str(pageNum + 1) + ".pdf"
+        pdfPagePath = "data/page_" + str(pageNum - 4) + ".pdf"
         pdfObject = PDF(pageNumber = pageNum, output = pageOutput, path = pdfPagePath)
         with open(pdfObject.path, "wb") as outputStream:
             pageOutput.write(outputStream)
@@ -87,6 +87,10 @@ def fromPdfCreateCsvObjects(listOfPdfObjects):
         tabula.convert_into(pdfObject.path, csvObject.path, output_format="csv")
         csvObjects.append(csvObject)
     return csvObjects
+
+def deletePdfPagesFromDisk(pdfObjects):
+    for obj in pdfObjects:
+        os.remove(obj.path)
 
 # Turns values that have ' ' between numbers into lists e.g. '0.2 0.4' --> ['0.2', '0.4']
 def returnNewRowValuesList(oldRowValuesList):
@@ -109,8 +113,6 @@ def extractTables(csvObjects):
             table.saveToCSV()
         except:
             os.remove(obj.path) # remove empty CSV file
-            pdfOriginPath = obj.path.replace('.csv', '.pdf')
-            os.remove(pdfOriginPath) # also remove pdf file that spawned empty csv
     return tables
 
 
@@ -118,5 +120,6 @@ t0 = time.time()
 pdfDocumentFilePath = 'TheAmericanFreshman2014.pdf'
 pdfObjects = splitDocIntoPDFObjects(pdfDocumentFilePath)
 csvObjects = fromPdfCreateCsvObjects(pdfObjects)
+deletePdfPagesFromDisk(pdfObjects)
 tables = extractTables(csvObjects)
 print(time.time()-t0)
