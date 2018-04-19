@@ -1,4 +1,5 @@
 from PyPDF2 import PdfFileWriter, PdfFileReader
+from collections import defaultdict
 import tabula
 import pandas
 import os
@@ -137,23 +138,45 @@ def extractResourcesToCSVFiles(tables):
     for res in resource:
         if len(res) == 14:
             # resource[res] = modifyCommaNumbers1(resource[res])
-            resource[res].to_csv('data/freshmen_survey.csv', index = False)
+            resource[res].to_csv('data/freshmen-survey.csv', index = False)
         elif len(res) == 6:
             resource[res].to_csv('data/institutions.csv', index = False)
         elif len(res) == 12:
             # resource[res] = modifyCommaNumbers2(resource[res])
-            resource[res].to_csv('data/standard_errors.csv', index = False)
+            resource[res].to_csv('data/standard-errors.csv', index = False)
 
-def modifyCommaNumbers1(df):
-    values = df.loc[[0]].values.tolist()[0]
-    newValues = list(map(lambda x: x.replace(',',''), values))
-    df.loc[0] = newValues
-    df = df.rename(columns={df.columns[0]: ''})
+# Fixes unnamed column name, numbers with comma and gets rid of duplicates
+def modifyFreshmenSurveyResource(df):
+    # Get rid of commas
+    firstRowValues = df.loc[[0]].values.tolist()[0] # this is where commas are
+    newFirstRowValues = list(map(lambda x: x.replace(',',''), firstRowValues))
+    df.loc[0] = newFirstRowValues
+
+    # Rename first column
+    df = df.rename(columns={df.columns[0]: 'Survey'})
+
+    # Get rid of duplicates
+    firstColumnValues = df[df.columns[0]].tolist()
+    duplicates = extractDuplicates(firstColumnValues)
+    df = df.fillna('')
+    for dup in duplicates:
+        for num, rowIndex in enumerate(dup[1]):
+            if df.iat[rowIndex, 1] == '':
+                df.iat[rowIndex, 0] = df.iat[rowIndex, 0] + ' (' + str(num+1) + ')'
+
     return df
 
-def modifyCommaNumbers2(df):
+# Fixes numbers with comma
+def modifyStandardErrorResource(df):
     df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.replace(',', ''))
     return df
+
+def extractDuplicates(valuesList):
+    tally = defaultdict(list)
+    for i, item in enumerate(valuesList):
+        tally[item].append(i)
+    return ((key,locs) for key,locs in tally.items() if len(locs)>1)
+
 
 pdfDocumentFilePath = 'archive/TheAmericanFreshman2014.pdf'
 pdfObjects = splitDocIntoPDFObjects(pdfDocumentFilePath)
@@ -163,10 +186,10 @@ tables = extractTables(csvObjects)
 deleteCsvFilesFromDisk(csvObjects)
 extractResourcesToCSVFiles(tables)
 
-df1 = pandas.read_csv('data/freshmen_survey.csv')
-df1 = modifyCommaNumbers1(df1)
-df1.to_csv('data/freshmen_survey.csv', index=False)
+df1 = pandas.read_csv('data/freshmen-survey.csv')
+df1 = modifyFreshmenSurveyResource(df1)
+df1.to_csv('data/freshmen-survey.csv', index=False)
 
-df2 = pandas.read_csv('data/standard_errors.csv')
-df2 = modifyCommaNumbers2(df2)
-df2.to_csv('data/standard_errors.csv', index=False)
+df2 = pandas.read_csv('data/standard-errors.csv')
+df2 = modifyStandardErrorResource(df2)
+df2.to_csv('data/standard-errors.csv', index=False)

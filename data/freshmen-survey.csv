@@ -1,4 +1,4 @@
-,All Bacc Institutions,4-yr Coll(Baccalaureate Institutions),Universities(Baccalaureate Institutions),Public 4-year Colleges,Private 4-year Colleges,Nonsec 4-year Colleges,Catholic 4-year Colleges,Oth Relig 4-year Colleges,Public Universities,Private Universities,All HBCU,Public HBCU,Private HBCU
+Survey,All Bacc Institutions,4-yr Coll(Baccalaureate Institutions),Universities(Baccalaureate Institutions),Public 4-year Colleges,Private 4-year Colleges,Nonsec 4-year Colleges,Catholic 4-year Colleges,Oth Relig 4-year Colleges,Public Universities,Private Universities,All HBCU,Public HBCU,Private HBCU
 First-time Full-time Freshmen,153015,96733,56282,38681,58052,26229,13149,18674,33242,23040,5261,2450,2811
 How old will you be on December 31 of this year?,,,,,,,,,,,,,
 17 or younger,1.8,1.8,1.8,1.9,1.7,2.0,1.6,1.5,1.8,1.8,2.6,2.3,3.1
@@ -137,7 +137,7 @@ Philosophy,0.3,0.3,0.3,0.3,0.3,0.4,0.3,0.2,0.3,0.3,0.3,0.2,0.3
 Theatre/Drama,0.8,0.8,0.7,0.7,1.0,1.0,0.3,1.3,0.6,1.3,0.8,0.6,1.2
 Theology/Religion,0.2,0.3,0.1,0.1,0.5,0.2,0.2,1.0,0.1,0.2,0.2,0.2,0.1
 Other Arts and Humanities,0.7,0.7,0.8,0.6,0.8,0.8,0.6,0.9,0.8,0.7,0.6,0.5,0.8
-Your intended major (continued):,,,,,,,,,,,,,
+Your intended major (continued): (1),,,,,,,,,,,,,
 Biological & Life Sciences,,,,,,,,,,,,,
 Biology (general),6.9,6.5,7.3,5.8,7.5,6.9,10.1,6.8,7.0,8.2,12.0,9.4,16.6
 Animal Biology (zoology),0.6,0.7,0.6,0.6,0.9,1.1,0.4,0.9,0.7,0.2,0.5,0.5,0.4
@@ -185,7 +185,7 @@ Industrial/Manufacturing Engineering,0.5,0.3,0.8,0.4,0.2,0.3,0.2,0.1,0.9,0.3,0.6
 Materials Engineering,0.2,0.1,0.3,0.1,0.1,0.1,0.1,0.1,0.4,0.1,0.1,0.1,0.1
 Mechanical Engineering,3.0,2.2,3.8,2.9,1.3,1.4,1.6,0.9,4.1,2.5,2.2,2.8,1.0
 Other Engineering,0.6,0.6,0.7,0.8,0.4,0.4,0.3,0.4,0.7,0.5,0.4,0.5,0.3
-Your intended major (continued):,,,,,,,,,,,,,
+Your intended major (continued): (2),,,,,,,,,,,,,
 Health Professions,,,,,,,,,,,,,
 Clinical Laboratory Science,0.2,0.2,0.1,0.2,0.1,0.1,0.1,0.1,0.1,0.1,0.3,0.3,0.2
 Health Care Administration/Studies,0.3,0.4,0.2,0.4,0.3,0.2,0.5,0.3,0.2,0.4,0.3,0.3,0.3
@@ -404,9 +404,9 @@ Publicly communicated my opinion about a cause,,,,,,,,,,,,,
 Helped raise money for a cause or campaign,56.7,56.8,56.7,54.0,60.6,59.5,62.5,60.9,55.6,60.8,61.9,62.4,60.9
 Fell asleep in class,43.1,43.8,42.2,44.7,42.5,41.8,38.5,45.2,42.2,42.3,56.9,58.4,54.0
 Failed to complete homework on time,52.5,54.5,50.3,55.1,53.6,55.2,48.9,54.3,50.3,50.0,53.2,53.5,52.6
-"Used an online instructional website (e.g.,",,,,,,,,,,,,,
+"Used an online instructional website (e.g., (1)",,,,,,,,,,,,,
 "Khan Academy, Coursera) as assigned for a class",46.9,47.2,46.6,46.6,48.0,48.1,48.8,47.6,46.2,48.1,58.6,58.0,59.9
-"Used an online instructional website (e.g.,",,,,,,,,,,,,,
+"Used an online instructional website (e.g., (2)",,,,,,,,,,,,,
 "Khan Academy, Coursera) to learn something",,,,,,,,,,,,,
 on your own,72.1,73.2,71.0,74.6,71.2,72.3,66.8,72.2,71.0,70.9,89.4,89.1,89.9
 *responses for “Frequently” only,,,,,,,,,,,,,
@@ -418,7 +418,7 @@ Tolerance of others with different beliefs,80.7,78.0,83.7,77.8,78.3,81.1,79.3,75
 Openness to having my own views challenged,63.2,62.1,64.5,62.4,61.6,63.0,62.7,59.7,64.1,65.8,68.9,68.2,70.2
 Ability to discuss and negotiate controversial issues,70.1,67.6,72.7,67.2,68.2,69.9,68.5,66.2,72.4,74.1,71.8,70.4,74.3
 Ability to work cooperatively with diverse people,85.5,84.3,86.9,84.3,84.3,85.5,85.6,82.5,86.8,87.3,84.3,83.6,85.7
-What is the highest level of formal education,,,,,,,,,,,,,
+What is the highest level of formal education (1),,,,,,,,,,,,,
 obtained by your father?,,,,,,,,,,,,,
 Junior high/Middle school or less,5.9,7.5,4.0,10.3,3.8,3.8,4.7,3.4,4.4,2.6,6.0,6.2,5.5
 Some high school,5.5,7.0,3.8,8.6,4.7,4.5,5.0,4.8,4.1,2.9,10.6,10.9,9.9
@@ -428,7 +428,7 @@ Some college,13.7,15.5,11.7,16.3,14.4,14.2,13.8,15.0,12.2,9.6,19.6,20.4,18.1
 College degree,28.5,26.1,31.1,23.5,29.6,29.2,30.3,29.7,30.8,32.3,18.5,18.6,18.3
 Some graduate school,1.9,1.6,2.1,1.3,2.0,2.2,1.9,1.9,2.1,2.5,1.2,0.9,1.7
 Graduate degree,24.4,18.0,31.4,14.5,22.8,25.3,21.9,20.8,29.7,38.1,9.9,7.6,14.2
-What is the highest level of formal education,,,,,,,,,,,,,
+What is the highest level of formal education (2),,,,,,,,,,,,,
 obtained by your mother?,,,,,,,,,,,,,
 Junior high/Middle school or less,5.2,6.6,3.7,9.2,3.1,3.1,3.9,2.7,4.1,2.2,4.3,4.6,3.8
 Some high school,3.9,4.9,2.8,6.3,3.0,3.1,3.4,2.8,3.1,2.0,6.0,6.2,5.6
@@ -489,12 +489,12 @@ K-12 Administrator,0.2,0.3,0.2,0.3,0.2,0.1,0.3,0.3,0.2,0.2,0.3,0.3,0.4
 Other K-12 Professional,0.6,0.7,0.4,0.7,0.8,0.8,0.6,0.8,0.4,0.5,0.5,0.5,0.5
 Military,2.1,2.8,1.3,4.1,1.1,1.2,1.4,0.9,1.3,1.3,1.3,1.2,1.4
 Federal/State/Local Government Official,1.9,2.1,1.6,2.0,2.3,2.5,1.6,2.4,1.6,1.7,2.8,3.1,2.3
-"Protective Services (e.g., Homeland Security,",,,,,,,,,,,,,
+"Protective Services (e.g., Homeland Security, (1)",,,,,,,,,,,,,
 "Law Enforcement, Firefighter)",1.6,2.3,1.0,2.7,1.7,1.5,1.8,1.9,1.0,0.7,1.9,2.1,1.4
 Postal Worker,0.2,0.2,0.1,0.2,0.2,0.2,0.1,0.2,0.1,0.2,0.2,0.4,0.0
 Dietician/Nutritionist,0.6,0.6,0.6,0.7,0.6,0.6,0.6,0.6,0.6,0.4,0.4,0.4,0.3
 Home Health Worker,0.9,1.3,0.5,1.4,1.1,0.7,0.9,1.7,0.5,0.4,1.1,1.2,0.9
-"Medical/Dental Assistant (e.g., Hygienist, Lab Tech,",,,,,,,,,,,,,
+"Medical/Dental Assistant (e.g., Hygienist, Lab Tech, (1)",,,,,,,,,,,,,
 Nursing Asst.),0.8,0.9,0.7,0.9,0.8,0.7,1.1,0.8,0.7,0.7,1.1,1.2,0.9
 Registered Nurse,2.7,3.7,1.6,4.2,3.1,1.9,5.7,3.1,1.6,1.6,3.5,4.8,1.1
 "Therapist (e.g., Physical, Occupational, Speech)",3.8,4.8,2.7,5.0,4.5,4.1,4.3,5.0,2.8,2.6,3.6,4.3,2.4
@@ -556,13 +556,13 @@ K-12 Administrator,0.5,0.6,0.5,0.5,0.6,0.6,0.5,0.8,0.5,0.4,0.7,0.8,0.6
 Other K-12 Professional,0.4,0.5,0.4,0.4,0.5,0.6,0.4,0.4,0.4,0.4,0.5,0.6,0.3
 Military,2.3,2.6,1.9,3.1,2.1,1.9,1.4,2.6,2.1,1.5,4.2,3.9,4.6
 Federal/State/Local Government Official,2.5,2.8,2.3,2.7,2.9,2.9,2.5,3.0,2.3,2.2,2.9,3.2,2.5
-"Protective Services (e.g., Homeland Security,",,,,,,,,,,,,,
+"Protective Services (e.g., Homeland Security, (2)",,,,,,,,,,,,,
 "Law Enforcement, Firefighter)",2.7,3.3,2.1,3.6,3.0,3.0,3.7,2.6,2.1,2.1,3.4,3.2,3.9
 Postal Worker,0.9,0.9,0.8,1.0,0.8,1.0,0.7,0.8,0.8,0.9,1.2,1.2,1.2
 Dietician/Nutritionist,1.6,1.8,1.4,1.7,1.8,1.8,1.5,1.9,1.5,1.4,2.4,2.5,2.3
 Your father’s occupation (continued),,,,,,,,,,,,,
 Home Health Worker,0.2,0.3,0.2,0.3,0.2,0.2,0.2,0.2,0.3,0.2,0.5,0.6,0.3
-"Medical/Dental Assistant (e.g., Hygienist, Lab Tech,",,,,,,,,,,,,,
+"Medical/Dental Assistant (e.g., Hygienist, Lab Tech, (2)",,,,,,,,,,,,,
 Nursing Asst.),0.4,0.4,0.4,0.5,0.3,0.3,0.4,0.4,0.4,0.3,0.4,0.3,0.6
 Registered Nurse,0.5,0.5,0.5,0.6,0.4,0.5,0.5,0.3,0.5,0.3,0.7,0.8,0.6
 "Therapist (e.g., Physical, Occupational, Speech)",0.7,0.7,0.6,0.6,0.8,0.8,0.7,0.9,0.6,0.5,0.7,0.6,1.0
@@ -624,12 +624,12 @@ K-12 Administrator,1.1,1.2,1.0,1.2,1.3,1.4,1.2,1.2,1.0,1.1,1.8,1.7,1.9
 Other K-12 Professional,1.2,1.4,1.0,1.3,1.6,1.6,1.4,1.6,1.0,1.1,1.2,1.2,1.1
 Military,0.8,0.8,0.8,0.8,0.8,0.9,0.6,0.8,0.8,0.8,1.3,1.1,1.7
 Federal/State/Local Government Official,1.6,1.8,1.4,1.9,1.6,1.8,1.4,1.6,1.4,1.4,3.3,2.8,4.1
-"Protective Services (e.g., Homeland Security,",,,,,,,,,,,,,
+"Protective Services (e.g., Homeland Security, (3)",,,,,,,,,,,,,
 "Law Enforcement, Firefighter)",0.6,0.7,0.5,0.8,0.7,0.6,0.8,0.7,0.5,0.4,1.7,1.6,1.8
 Postal Worker,0.6,0.6,0.6,0.6,0.6,0.7,0.6,0.6,0.6,0.5,1.2,1.1,1.5
 Dietician/Nutritionist,1.2,1.3,1.2,1.3,1.3,1.3,1.1,1.5,1.2,1.2,2.0,2.4,1.5
 Home Health Worker,2.5,2.9,2.1,3.0,2.9,2.7,2.4,3.3,2.2,1.8,4.8,5.4,3.8
-"Medical/Dental Assistant (e.g., Hygienist, Lab Tech,",,,,,,,,,,,,,
+"Medical/Dental Assistant (e.g., Hygienist, Lab Tech, (3)",,,,,,,,,,,,,
 Nursing Asst.),2.1,2.5,1.7,2.7,2.2,2.1,2.5,2.2,1.9,1.3,3.8,4.2,3.1
 Registered Nurse,4.5,4.5,4.4,4.4,4.7,4.0,5.9,4.7,4.5,4.0,3.9,3.7,4.2
 "Therapist (e.g., Physical, Occupational, Speech)",1.8,1.7,1.9,1.5,2.0,1.8,1.9,2.2,1.9,1.9,1.2,1.1,1.5
@@ -701,7 +701,7 @@ Liberal,28.8,25.9,31.9,26.2,25.6,31.3,22.2,21.5,31.8,32.6,26.2,23.1,31.8
 Middle-of-the-road,47.2,49.7,44.6,51.9,46.7,46.1,50.5,45.4,45.1,42.4,50.9,52.3,48.5
 Conservative,19.4,19.4,19.3,17.4,22.1,16.5,22.9,27.4,18.9,20.6,14.7,15.8,12.7
 Far right,1.6,1.9,1.4,1.6,2.2,1.8,2.0,2.7,1.4,1.4,2.5,2.6,2.5
-The following reasons were “Very Important” in,,,,,,,,,,,,,
+The following reasons were “Very Important” in (1),,,,,,,,,,,,,
 deciding to go to college:,,,,,,,,,,,,,
 To be able to get a better job,86.1,86.0,86.2,87.2,84.4,83.7,90.1,82.4,86.1,86.7,90.7,91.2,89.9
 To gain a general education and appreciation of ideas,70.6,70.8,70.5,69.2,73.0,74.7,75.2,70.1,69.4,74.7,81.9,82.3,81.3
@@ -710,9 +710,9 @@ To be able to make more money,72.8,74.0,71.4,77.0,69.9,69.4,76.4,67.3,71.9,69.4,
 To learn more about things that interest me,82.2,81.6,82.9,80.8,82.7,84.2,82.7,81.3,82.5,84.5,84.2,83.2,86.0
 To get training for a specific career,77.1,79.5,74.5,81.6,76.5,73.1,81.9,77.4,75.1,72.4,87.3,87.7,86.5
 To prepare myself for graduate or professional school,59.7,59.5,60.0,59.8,59.2,59.1,65.6,56.1,60.1,59.3,80.5,79.0,83.2
-"During your last year in high school, how much",,,,,,,,,,,,,
-time did you spend during a typical week doing,,,,,,,,,,,,,
-the following activities?,,,,,,,,,,,,,
+"During your last year in high school, how much (1)",,,,,,,,,,,,,
+time did you spend during a typical week doing (1),,,,,,,,,,,,,
+the following activities? (1),,,,,,,,,,,,,
 Studying/homework,,,,,,,,,,,,,
 None,1.7,1.9,1.5,2.0,1.8,1.4,1.4,2.2,1.6,1.1,2.7,2.8,2.6
 Less than one hour,8.5,9.7,7.0,10.4,8.9,8.6,7.0,10.1,7.6,4.9,12.1,13.3,10.0
@@ -749,9 +749,9 @@ Less than one hour,8.8,9.5,8.0,10.3,8.4,9.0,7.7,8.1,8.1,7.4,11.0,10.4,12.1
 11 to 15 hours,13.9,13.1,14.8,12.1,14.4,13.8,15.4,14.5,14.8,14.6,9.0,9.2,8.7
 16 to 20 hours,8.1,8.1,8.2,7.3,9.3,9.0,9.5,9.4,8.1,8.4,5.4,5.7,4.9
 Over 20 hours,10.0,11.0,8.8,9.6,12.9,11.8,11.2,14.8,8.7,9.1,10.3,10.6,9.6
-"During your last year in high school, how much",,,,,,,,,,,,,
-time did you spend during a typical week doing,,,,,,,,,,,,,
-the following activities?,,,,,,,,,,,,,
+"During your last year in high school, how much (2)",,,,,,,,,,,,,
+time did you spend during a typical week doing (2),,,,,,,,,,,,,
+the following activities? (2),,,,,,,,,,,,,
 Partying,,,,,,,,,,,,,
 None,41.3,42.8,39.5,43.1,42.4,39.2,38.9,47.2,41.1,33.7,27.4,26.0,29.9
 Less than one hour,16.1,15.4,17.0,15.5,15.3,16.0,14.1,15.1,17.2,16.2,14.8,14.6,15.1
@@ -797,9 +797,9 @@ Less than one hour,17.4,17.5,17.3,18.0,16.9,16.8,17.3,16.9,17.6,16.3,18.7,18.9,1
 11 to 15 hours,4.5,4.6,4.4,4.5,4.9,4.6,4.5,5.3,4.3,4.7,5.4,5.6,5.2
 16 to 20 hours,1.7,1.9,1.6,1.8,1.9,1.8,1.5,2.2,1.5,1.7,2.7,2.8,2.6
 Over 20 hours,2.2,2.6,1.7,2.6,2.6,2.2,2.4,3.0,1.7,2.0,4.6,4.7,4.5
-"During your last year in high school, how much",,,,,,,,,,,,,
-time did you spend during a typical week doing,,,,,,,,,,,,,
-the following activities?,,,,,,,,,,,,,
+"During your last year in high school, how much (3)",,,,,,,,,,,,,
+time did you spend during a typical week doing (3),,,,,,,,,,,,,
+the following activities? (3),,,,,,,,,,,,,
 Household/childcare duties,,,,,,,,,,,,,
 None,21.4,20.7,22.3,19.6,22.1,24.1,17.8,22.2,21.7,24.5,20.0,18.9,21.9
 Less than one hour,20.3,18.9,21.9,18.7,19.3,19.8,18.4,19.3,21.8,22.5,16.2,16.0,16.5
@@ -836,7 +836,7 @@ Less than one hour,15.7,15.7,15.7,16.1,15.3,15.8,14.3,15.2,16.3,13.8,15.0,15.4,1
 11 to 15 hours,5.8,6.3,5.3,6.2,6.3,6.2,6.4,6.3,5.3,5.5,7.3,7.4,7.1
 16 to 20 hours,3.1,3.4,2.7,3.5,3.4,3.2,3.1,3.7,2.7,2.9,5.2,5.5,4.7
 Over 20 hours,5.0,5.9,3.9,6.3,5.4,5.1,5.2,5.8,3.9,4.1,12.4,13.1,11.1
-The following reasons were “Very Important” in,,,,,,,,,,,,,
+The following reasons were “Very Important” in (2),,,,,,,,,,,,,
 deciding to go to this particular college:,,,,,,,,,,,,,
 My parents wanted me to come here,17.2,18.6,15.5,18.7,18.4,17.4,21.1,18.2,15.6,15.4,22.2,19.2,27.7
 My relatives wanted me to come here,8.0,9.0,6.9,8.9,9.2,8.4,10.3,9.5,7.0,6.6,16.0,13.9,19.9
@@ -911,14 +911,14 @@ None,97.4,96.1,98.9,94.1,98.9,99.1,98.4,98.8,98.9,99.0,95.4,95.1,95.9
 "In Active Duty, Reserves, or National Guard",0.3,0.4,0.2,0.5,0.2,0.2,0.1,0.2,0.2,0.1,0.5,0.6,0.4
 "A discharged veteran NOT serving in Active Duty,",,,,,,,,,,,,,
 "Reserves, or National Guard",0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.0,0.2,0.2,0.2
-How would you describe the racial composition of,,,,,,,,,,,,,
+How would you describe the racial composition of (1),,,,,,,,,,,,,
 the high school you last attended?,,,,,,,,,,,,,
 Completely White,6.6,5.4,7.9,3.9,7.5,6.9,7.6,8.0,7.9,7.6,2.4,2.0,3.0
 Mostly White,45.5,41.7,49.8,34.9,51.1,51.1,53.2,50.0,49.2,52.0,21.7,20.5,23.9
 Roughly half non-White,24.6,25.9,23.2,27.4,24.0,23.9,19.8,26.2,23.3,22.7,28.1,29.8,25.2
 Mostly non-White,18.5,21.2,15.4,26.9,13.5,13.9,14.7,12.5,15.8,13.6,33.5,34.6,31.6
 Completely non-White,4.8,5.7,3.8,7.0,3.9,4.3,4.6,3.2,3.8,4.2,14.2,13.0,16.4
-How would you describe the racial composition of,,,,,,,,,,,,,
+How would you describe the racial composition of (2),,,,,,,,,,,,,
 the neighborhood where you grew up?,,,,,,,,,,,,,
 Completely White,15.6,13.9,17.6,10.7,18.3,17.6,19.5,18.4,17.6,17.5,3.8,3.5,4.2
 Mostly White,46.0,42.6,49.8,37.8,49.3,49.1,48.0,50.1,49.6,50.7,18.5,18.1,19.2

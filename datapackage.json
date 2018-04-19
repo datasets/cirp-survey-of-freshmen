@@ -16,7 +16,7 @@
             "schema": {
                 "fields": [
                     {
-                        "name": "",
+                        "name": "Survey",
                         "type": "string",
                         "format": "default"
                     },
