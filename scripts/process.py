@@ -137,12 +137,10 @@ def extractResourcesToCSVFiles(tables):
             continue
     for res in resource:
         if len(res) == 14:
-            # resource[res] = modifyCommaNumbers1(resource[res])
             resource[res].to_csv('data/freshmen-survey.csv', index = False)
         elif len(res) == 6:
             resource[res].to_csv('data/institutions.csv', index = False)
         elif len(res) == 12:
-            # resource[res] = modifyCommaNumbers2(resource[res])
             resource[res].to_csv('data/standard-errors.csv', index = False)
 
 # Fixes unnamed column name, numbers with comma and gets rid of duplicates
