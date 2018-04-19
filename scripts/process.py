@@ -85,7 +85,6 @@ def fromPdfCreateCsvObjects(listOfPdfObjects):
         csvObject = CSV(pageNumber = pdfObject.pageNumber, path = csvFilePath)
         tabula.convert_into(pdfObject.path, csvObject.path, output_format="csv")
         csvObjects.append(csvObject)
-    print(len(csvObjects))
     return csvObjects
 
 def deletePdfPagesFromDisk(pdfObjects):
@@ -137,12 +136,24 @@ def extractResourcesToCSVFiles(tables):
             continue
     for res in resource:
         if len(res) == 14:
+            # resource[res] = modifyCommaNumbers1(resource[res])
             resource[res].to_csv('data/freshmen_survey.csv', index = False)
         elif len(res) == 6:
             resource[res].to_csv('data/institutions.csv', index = False)
         elif len(res) == 12:
+            # resource[res] = modifyCommaNumbers2(resource[res])
             resource[res].to_csv('data/standard_errors.csv', index = False)
-    print(list_of_pages)
+
+def modifyCommaNumbers1(df):
+    values = df.loc[[0]].values.tolist()[0]
+    newValues = list(map(lambda x: x.replace(',',''), values))
+    df.loc[0] = newValues
+    df = df.rename(columns={df.columns[0]: ''})
+    return df
+
+def modifyCommaNumbers2(df):
+    df[df.columns[0]] = df[df.columns[0]].apply(lambda x: x.replace(',', ''))
+    return df
 
 pdfDocumentFilePath = 'archive/TheAmericanFreshman2014.pdf'
 pdfObjects = splitDocIntoPDFObjects(pdfDocumentFilePath)
@@ -151,3 +162,11 @@ deletePdfPagesFromDisk(pdfObjects)
 tables = extractTables(csvObjects)
 deleteCsvFilesFromDisk(csvObjects)
 extractResourcesToCSVFiles(tables)
+
+df1 = pandas.read_csv('data/freshmen_survey.csv')
+df1 = modifyCommaNumbers1(df1)
+df1.to_csv('data/freshmen_survey.csv', index=False)
+
+df2 = pandas.read_csv('data/standard_errors.csv')
+df2 = modifyCommaNumbers2(df2)
+df2.to_csv('data/standard_errors.csv', index=False)
