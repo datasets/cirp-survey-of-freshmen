@@ -1,6 +1,6 @@
 {
     "name": "cirp-freshmen-survey",
-    "title": "cirp-freshmen-survey",
+    "title": "CIRP Freshmen Survey",
     "resources": [
         {
             "path": "freshmen_survey.csv",
