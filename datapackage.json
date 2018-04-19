@@ -3,9 +3,9 @@
     "title": "CIRP Freshmen Survey",
     "resources": [
         {
-            "path": "freshmen_survey.csv",
+            "path": "freshmen-survey.csv",
             "pathType": "local",
-            "name": "freshmen_survey",
+            "name": "freshmen-survey",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "UTF-8",
@@ -145,9 +145,9 @@
             "description": "Institutions Participating in the 2014 CIRP Freshman Survey"
         },
         {
-            "path": "standard_errors.csv",
+            "path": "standard-errors.csv",
             "pathType": "local",
-            "name": "standard_errors",
+            "name": "standard-errors",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "ISO-8859-1",
