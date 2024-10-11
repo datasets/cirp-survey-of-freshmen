@@ -1,230 +1,231 @@
 {
-    "name": "cirp-freshmen-survey",
-    "title": "CIRP Freshmen Survey",
-    "resources": [
-        {
-            "path": "data/freshmen-survey.csv",
-            "pathType": "local",
-            "name": "freshmen-survey",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "UTF-8",
-            "dialect": {
-                "delimiter": ",",
-                "quoteChar": "\""
-            },
-            "schema": {
-                "fields": [
-                    {
-                        "name": "Survey",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "All Bacc Institutions",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "4-yr Coll(Baccalaureate Institutions)",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Universities(Baccalaureate Institutions)",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Public 4-year Colleges",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Private 4-year Colleges",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Nonsec 4-year Colleges",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Catholic 4-year Colleges",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Oth Relig 4-year Colleges",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Public Universities",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Private Universities",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "All HBCU",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Public HBCU",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Private HBCU",
-                        "type": "number",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ]
-            },
-            "profile": "data-resource",
-            "description": "Survey of Full-Time Freshmen by Institutional Type"
-        },
-        {
-            "path": "data/institutions.csv",
-            "pathType": "local",
-            "name": "institutions",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "UTF-8",
-            "dialect": {
-                "delimiter": ",",
-                "quoteChar": "\""
-            },
-            "schema": {
-                "fields": [
-                    {
-                        "name": "ACE",
-                        "type": "any",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Institution",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "City",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "State",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Stratification Cell",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "Included in National Norms",
-                        "type": "string",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ]
-            },
-            "profile": "data-resource",
-            "description": "Institutions Participating in the 2014 CIRP Freshman Survey"
-        },
-        {
-            "path": "data/standard-errors.csv",
-            "pathType": "local",
-            "name": "standard-errors",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "ISO-8859-1",
-            "dialect": {
-                "delimiter": ",",
-                "quoteChar": "\""
-            },
-            "schema": {
-                "fields": [
-                    {
-                        "name": "Unweighted size of comparison groups",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "1%",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "5%",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "10%",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "15%",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "20%",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "25%",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "30%",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "35%",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "40%",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "45%",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "50%",
-                        "type": "number",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ]
-            },
-            "profile": "data-resource",
-            "description": "Estimated Standard Errors of Percentages for Comparison Groups of Various Sizes"
-        }
-    ],
-    "profile": "data-package"
+  "name": "cirp-freshmen-survey",
+  "title": "CIRP Freshmen Survey",
+  "resources": [
+    {
+      "path": "data/freshmen-survey.csv",
+      "pathType": "local",
+      "name": "freshmen-survey",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "UTF-8",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Survey",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "All Bacc Institutions",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "4-yr Coll(Baccalaureate Institutions)",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Universities(Baccalaureate Institutions)",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Public 4-year Colleges",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Private 4-year Colleges",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Nonsec 4-year Colleges",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Catholic 4-year Colleges",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Oth Relig 4-year Colleges",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Public Universities",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Private Universities",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "All HBCU",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Public HBCU",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Private HBCU",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "profile": "data-resource",
+      "description": "Survey of Full-Time Freshmen by Institutional Type"
+    },
+    {
+      "path": "data/institutions.csv",
+      "pathType": "local",
+      "name": "institutions",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "UTF-8",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "ACE",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "Institution",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "City",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "State",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Stratification Cell",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Included in National Norms",
+            "type": "string",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "profile": "data-resource",
+      "description": "Institutions Participating in the 2014 CIRP Freshman Survey"
+    },
+    {
+      "path": "data/standard-errors.csv",
+      "pathType": "local",
+      "name": "standard-errors",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Unweighted size of comparison groups",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "1%",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "5%",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "10%",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "15%",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "20%",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "25%",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "30%",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "35%",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "40%",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "45%",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "50%",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "profile": "data-resource",
+      "description": "Estimated Standard Errors of Percentages for Comparison Groups of Various Sizes"
+    }
+  ],
+  "profile": "data-package",
+  "collection": "education"
 }
