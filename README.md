@@ -1,4 +1,4 @@
-<a href="https://datahub.io/core/cirp-survey-of-freshmen"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25)" alt="badge" /></a>
+<a className="gh-badge" href="https://datahub.io/core/cirp-survey-of-freshmen"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25" alt="badge" /></a>
 
 CIRP survey of the american freshmen conducted in 2014. Contains student's opinions
 on various matters as well as information about institutions participating in a survey.
